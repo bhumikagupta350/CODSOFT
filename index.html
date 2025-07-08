@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brightland - Landing Page</title>
+<!--     <link rel="stylesheet" href="style1.css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    height: 27px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: #f4c542;
+    border-radius: 4px;
+    color: black;
+    font-weight: 600;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+    text-align: center;
+    background-image: url("olive\ image5.jpg");
+    padding: 60px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    display: flex;
+}
+.button{
+    padding: 8px 16px;
+    border: 5px solid white;
+    color: white;
+    background-color: rgba(161, 155, 155, 0.1);
+    text-decoration: none;
+    align-items: flex-start;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Logos Section */
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.logo1 {
+    height: 70px;
+}
+
+.logo2 {
+    height: 80px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.logo3{
+    height: 80px;
+    object-fit: contain;
+}
+
+.logos img {
+    width: 120px;
+    filter: grayscale(100%);
+}
+
+.golden-section {
+    background-color: #f4c542;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.golden-left {
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 40px 20px;
+}
+
+
+.btn-yellow {
+    background-color: #fff;
+    color: #f4c542;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.golden-right {
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    max-width: 55%;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+</style>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">BRIGHTLAND</div>
+        <nav>
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#" class="btn">Shop All Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <a href="#" class="button">Shop Our Products</a>
+        </div>
+    </section>
+
+    <!-- Logos Section -->
+    <section class="logos">
+        <img src="wsj.png" alt="WSJ" class="logo1">
+        <img src="newyork2.jpg" alt="NY Times" class="logo2">
+        <img src="food2.png" alt="Food & Wine" class="logo3">
+        <img src="fast company.webp" alt="Fast Company" class="logo4">
+
+    </section>
+    <div class="golden-section">
+        <div class="golden-left">
+            <h2 class="heading">Living in a golden state</h2>
+            <a href="#" class="btn-yellow">Learn About Us</a>
+        </div>
+        <div class="golden-right">
+            <p class="about">Brightland extra virgin olive oils and vinegars are consciously made in California, and
+                contain nothing more than fruit, love and sunshine.Welcome to the golden state.</p>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Brightland | Built by Bhumika Gupta</p>
+    </footer>
+</body>
+
+</html>
